@@ -25,5 +25,6 @@ public class Test
 		tx.commit();
 		ses.close();
 		System.out.println(a);
+		tx.close();
 	}
 }
